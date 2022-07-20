@@ -1,0 +1,334 @@
+/*ESTILOS DOCUMENTO FASTFILE*/
+
+/*---------HEADER------------*/
+
+/*ETIQUETAS*/
+body {
+    margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    justify-content: space-between;
+    text-align: center; 
+}
+
+header {
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+img {
+    height: 60px;
+}
+ul , ol {
+    list-style: none;
+}
+
+/*CLASES*/
+.bar-link {
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 20px 15px;
+} 
+.btn-link {
+    color:#ffff;
+    background-color: transparent;
+    margin: 5px;
+   
+}
+
+.enlaces {
+    align-items: flex-end;
+    width: 60%;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60px;
+}
+.btn {
+    color: #ffff;
+    border-radius: 6px;
+}
+.botones {
+    width: 900px;
+    height: 60px;
+}
+.navegador {
+    width: 900px;
+    height: 60px;
+}
+.nav li a {
+    background-color: #222222;
+    color: #ffff;
+    padding: 10px ;
+    text-decoration: none;
+    display: block;
+}
+.nav > li {
+    float: left;
+}
+.nav li a:hover {
+    background-color: #31ddc2;
+    color: black;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+
+/*------CUERPO DEL PROGRAMA---------*/
+
+/*ETIQUETAS*/
+h1 {
+    margin: 0;
+}
+iframe {
+    height: 500px;
+    width: 900px;
+    border: none;
+}
+
+/*CLASES*/
+.container {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    width: 1366px;
+    height: 700px;  
+}
+.container > div {
+    text-decoration: none;
+}
+.contenido {
+    height: 700px;
+    width: 1236px;
+}
+
+.titulo {
+    height: 150px;
+    background-color: #0d7377   ;
+    display: flex;
+    width: 100%;
+
+}
+.log-horizon {
+    height: 150px;
+    width: 200px;
+}
+
+/*ID*/
+#link {
+    text-decoration: none;
+    height: 20px;
+    color: #31ddc2;
+}
+/*SIDEBAR*/
+.lista_sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.opciones_sidebar {
+    margin: 0;
+    padding: 10px;
+    height: 40px;
+    width: 160px;
+    background-color: transparent;
+}
+.opciones_sidebar2 {
+    margin: 0;
+    height: 40px;
+    width: 160px;
+    background-color:transparent;   
+}
+.btn_sidebar {
+    text-decoration: none;
+    color: #ffff;
+}
+
+/*ID*/
+#sidebar {
+    text-align: center;
+    height: 700px;
+    width: 180px;
+    text-decoration: none;
+    background-color: black;
+    display: flex;                                                      
+}
+#sidebar ul li {
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+#sidebar .lista_sidebar li a:hover {
+    background-color: #31ddc2;
+    color: black;
+}
+#sidebar .lista_sidebar li:hover {
+    background-color: #31ddc2;
+    color: black;
+}
+#sidebar .lista_sidebar li ul {
+    display: none;
+    position: relative;
+    min-width: 140px;
+}
+#sidebar .lista_sidebar li:hover > ul {
+    display: block;
+} 
+
+/*-----------PIE DEL PROGRAMA------------*/
+
+/*ETIQUETAS*/
+footer {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #ffff;
+    text-align: left;
+    background-color: gray;
+    height: 250px;
+}
+
+/*CLASES*/
+.footer {
+    width: 1200px;
+    height: 160px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.listfooter {
+    display: inline-block;  
+    margin: 20px;
+    text-align: right;
+}
+.navfooter {
+    margin: 30px;
+}
+.creador {
+    margin: 30px;
+    padding: 10px;
+}
+.linkfooter {
+    text-decoration: none;
+    color: #222222;
+}
+/*---------------FORMULARIOS------------*/
+
+/*ETIQUETAS*/
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    align-items: center;
+    margin: 0;
+    text-align: center; 
+    height: 400px;
+    width: 500px;
+    justify-content: space-between;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    margin: 20px;  
+    text-align: center; 
+    color: #222222;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 20px;  
+    text-align: center; 
+    color: #222222;
+}
+ul {
+    margin: 0;
+    text-align: center; 
+}
+
+input {
+    margin: 10px;
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+label {
+    margin: 0;
+}
+
+/*CLASES*/
+.espacio {
+    width: 280px;
+    height: 30px;
+    margin: 0;
+}
+.descripcion {
+    font-size: 0.9em;
+    color: #666;
+    align-items: center;
+}
+.tipo {
+    width: 100%;
+    display: grid;
+    text-align: right;
+    grid-template-columns: 200px 200px;
+}
+.tarjeta {
+    align-content: center;
+    width: 450px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60px 400px;
+}
+.areatarjeta {
+    align-content: center;
+    width: 900px;
+    height: 350px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 450px 450px;
+
+}
+.busqueda {
+    width: 280px;
+    height: 30px;
+    margin: 50px;
+    margin-right: 0;
+}
+.mapa {
+    width: 450px;
+    height: 350px;
+    border-radius: 3px;
+}
+.imgmapa {
+    width: 200px;
+    height: 150px;
+    border-radius: 3px;
+}
+.acerca_de {
+    font-family: sans-serif;
+}
+.pdf {
+    height: 900px;
+    width: 600px;
+}
+/*ID*/
+#select {
+    width: 60px;
+}
+#iconocont {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+#text_tarjeta {
+    text-align: left;
+    margin: 10px;
+    width: 400px;
+    height: 35px;
+}

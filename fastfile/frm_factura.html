@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylo.css" > 
+  <title>factura</title>
+</head>
+<body><form action="/principal.html" method="post">
+  <h3>CREAR FACTURA</h3>
+    <ul>
+     <li>
+       <p class="descripcion" for="name">Fecha creacion:</p>
+       <input class="espacio" type="date">
+     </li>
+     <p class="descripcion" for="name">Tipo de cliente:
+     <li class="tipo">
+        <label class="descripcion">Cliente
+          <input class="espacio" type="radio" id="select" name="select">
+        </label>
+        <label class="descripcion">Proveedor
+          <input class="espacio" type="radio" id="select" name="select">
+        </label>
+      </p>
+      </li>
+     <li>
+       <p class="descripcion" for="mail">Producto:</p>
+       <input class="espacio" type="search">
+     </li>
+     <li>
+      <p class="descripcion" for="mail">Cantidad:</p>
+      <input class="espacio" type="number">
+    </li>
+     <td>
+      <input class="accion" type="submit" value="Guardar" name="enviar" />
+    </td>
+    <td>
+      <input class="accion" type="submit" value="Limpiar" name="borrar" />
+    </td>
+    </ul>
+   </form>
+</body>
+</html>

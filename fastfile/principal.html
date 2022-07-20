@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FastFile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stylo.css" > 
+  </head>
+  <body>
+    <!--BARRA DE NAVEGACION SUPERIOR -->
+     <header class="header">   
+       <div class="logo">
+        <img src="img/Logo_FastFile.png">
+       </div>
+       <div class="botones">
+            <ul class="nav">
+              <!-- Acciones principales del programa-->
+                  <li><a class="bar-link btn-link" href="frm_producto.html" target="frame_display"><b>PRODUCTO</b></a>
+                     <ul>
+                      <li><a class="bar-link btn-link" href="frm_producto.html" target="frame_display"><b>crear producto</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>ver producto</b></a>
+                     </ul>
+                  
+                  </li>
+                  <li><a class="bar-link btn-link" href="frm_orden.html" target="frame_display"><b>INVENTARIO</b></a>
+                    <ul>
+                      <li><a class="bar-link btn-link" href="frm_orden.html" target="frame_display"><b>crear orden</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>ver orden</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>cancelar orden</b></a>
+                     </ul>
+                  </li>
+                  <li><a class="bar-link btn-link" href="frm_cliente.html" target="frame_display"><b>CLIENTE</b></a>
+                    <ul>
+                      <li><a class="bar-link btn-link" href="frm_cliente.html" target="frame_display"><b>crear nuevo cliente</b></a>
+                      <li><a class="bar-link btn-link" href="frm_proveedor.html" target="frame_display"><b>crear nuevo proveedor</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>consultar</b></a>
+                        <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>eliminar</b></a>
+                     </ul>
+                  </li>
+                  <li><a class="bar-link btn-link" href="frm_factura.html" target="frame_display"><b>VENTA</b></a>
+                    <ul>
+                      <li><a class="bar-link btn-link" href="frm_factura.html" target="frame_display"><b>crear factura</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>consultar</b></a>
+                      <li><a class="bar-link btn-link" href="frm_prox.html" target="frame_display"><b>eliminar</b></a>
+                     </ul>
+                  </li>
+            </ul>                        
+          </div>  
+    </header>
+<!--CUERPO DEL PROGRAMA -->    
+
+  <section class="container">
+   <!-- Barra lateral-->
+    <div id="sidebar">
+       <ul class="lista_sidebar">
+        <li class="opciones_sidebar"><a class="btn_sidebar" href="frm_login.html" target="frame_display">Iniciar sesion</a> </li>
+        <hr>
+        <li class="opciones_sidebar"><a class="btn_sidebar" href="frm-buscar.html" target="frame_display">Buscar</a></li>
+        <li class="opciones_sidebar"><a class="btn_sidebar" href="frm_prox.html" target="frame_display">Configuracion</a></li>
+       </ul>
+    </div>                                            
+    <!-- Cuerpo para el contenido principal-->
+    <div class="contenido">
+        <div class="titulo">
+          <img class="log-horizon" src="img/Logo_Horizon.png">
+        </div>
+      <!-- recuadro para mostrar contenido-->
+        <iframe name="frame_display" class="display" src="frm_bienvenida.html">
+      </iframe>
+    </div>
+  </section>
+ <!--PIE DEL PROGRAMA-->
+  <footer>
+    <div class="footer">
+      <nav class="navfooter">
+        <ul class="ulfooter">
+          <li class="listfooter"><a class="linkfooter" href="frm_acerca_de.html" target="frame_display">acerca de</a></li>
+          <li class="listfooter"><a class="linkfooter" href="frm_comentarios.html" target="frame_display">sugerencias</a></li>
+          <li class="listfooter"><a class="linkfooter" href="frm_ayuda.html" target="frame_display">ayuda</a></li>
+        </ul>
+      </nav>
+        <div class="creador">
+          Creado por @Jose leonardo Tamayo Lara <br>
+          SENA - Servicio nacional de aprendizaje
+        </div>
+    </div>
+    
+  </footer>
+  </body>
+</html>
